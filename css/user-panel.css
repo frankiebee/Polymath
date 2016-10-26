@@ -1,0 +1,5 @@
+.user-address {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 12em;
+}
