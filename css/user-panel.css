@@ -1,3 +1,12 @@
+.hello-world {
+  font-size: 25px;
+  margin: 15px;
+}
+
+.user-panel {
+  margin: 15px;
+}
+
 .user-address {
   text-overflow: ellipsis;
   overflow: hidden;

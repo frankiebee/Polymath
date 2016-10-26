@@ -16,6 +16,7 @@ App.prototype.render = function () {
       style: {
       }
     }, [
+      h('h1.hello-world', 'Hello WORLD!'),
       h(UserPanel, {
         address: address,
       }),

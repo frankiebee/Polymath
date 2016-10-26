@@ -39,10 +39,7 @@ Ficon.prototype.render = function () {
         style: {
           // position: 'ab'
         },
-      },
-        this.renderDots(addressBuffer)
-      ),
-      h('h1', this.renderDots(addressBuffer).length),
+      }),
     ])
 
   )

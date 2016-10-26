@@ -1,0 +1,15 @@
+.flex-column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.upercase {
+  text-transform: uppercase;
+}
