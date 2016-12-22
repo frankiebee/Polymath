@@ -15,7 +15,7 @@ Root.prototype.render = function () {
   try {
     web3
   } catch (e) {
-    message = 'No Web3 Please go download MetaMask'
+    message = 'No Web3 Please go download MetaMask or Mist'
   }
   return (
     h('.main-container', {

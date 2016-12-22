@@ -8,7 +8,8 @@ module.exports = App
 inherits(App, Component)
 function App () { Component.call(this) }
 
-App.prototype.render = function () {
+App.prototype.render = function (state, props) {
+ debugger
   var props = this.props
   const address = props.address
   return (
@@ -17,9 +18,9 @@ App.prototype.render = function () {
       }
     }, [
       h('h1.hello-world', 'Hello WORLD!'),
-      h(UserPanel, {
-        address: address,
-      }),
+    //   h(UserPanel, {
+    //     address: address,
+    //   }),
     ])
   )
 }
